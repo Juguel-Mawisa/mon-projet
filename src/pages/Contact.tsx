@@ -18,15 +18,18 @@ export default function Contact() {
           type="text"
           placeholder="Votre nom"
           className="w-full border px-3 py-2 rounded"
+          required
         />
         <input
           type="email"
           placeholder="Votre email"
           className="w-full border px-3 py-2 rounded"
+          required
         />
         <textarea
           placeholder="Votre message"
           className="w-full border px-3 py-2 rounded"
+          required
         ></textarea>
         <button
           type="submit"

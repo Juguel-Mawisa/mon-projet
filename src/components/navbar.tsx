@@ -7,6 +7,7 @@ export default function Navbar({}: Props) {
     <nav className="bg-blue-600 p-4 text-white flex justify-end gap-4">
       <Link to="/" className="hover:underline">Accueil</Link>
       <Link to="/contact" className="hover:underline">Contact</Link>
+        <Link to="/users" className="hover:underline">Users</Link>
     </nav>
   )
 }
